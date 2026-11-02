@@ -1,0 +1,17 @@
+{
+  "name": "mivo-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mivo educational Android application",
+  "scripts": {
+    "build": "test -f www/index.html"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@mivo/levelplay-capacitor": "file:./levelplay-plugin"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
